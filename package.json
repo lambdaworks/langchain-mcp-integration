@@ -1,0 +1,33 @@
+{
+  "name": "langchain-mcp-integration",
+  "version": "1.0.0",
+  "description": "LangChain integration with MCP tools.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish-lib": "npm run build && npm publish",
+    "publish-dryrun": "npm run build && npm publish --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambdaworks/langchain-mcp-integration.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "MCP",
+    "LangChain"
+  ],
+  "author": "LambdaWorks <admin@lambdaworks.io> (https://www.lambdaworks.io)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lambdaworks/langchain-mcp-integration/issues"
+  },
+  "homepage": "https://github.com/lambdaworks/langchain-mcp-integration#readme",
+  "devDependencies": {
+    "typescript": "5.7.3"
+  }
+}
