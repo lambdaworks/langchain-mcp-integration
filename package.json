@@ -1,5 +1,5 @@
 {
-  "name": "langchain-mcp-integration",
+  "name": "@lambdaworks/langchain-mcp-integration",
   "version": "1.0.0",
   "description": "LangChain integration with MCP tools.",
   "main": "dist/index.js",
