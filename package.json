@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "publish-lib": "npm run build && npm publish",
+    "watch": "tsc --watch",
+    "publish": "npm run build && npm publish",
     "publish-dryrun": "npm run build && npm publish --dry-run"
   },
   "repository": {
@@ -28,6 +29,12 @@
   },
   "homepage": "https://github.com/lambdaworks/langchain-mcp-integration#readme",
   "devDependencies": {
+    "@types/node": "^22.13.9",
     "typescript": "5.7.3"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.42",
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "json-schema-to-zod": "^2.6.0"
   }
 }
