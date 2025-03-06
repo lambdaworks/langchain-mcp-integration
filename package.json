@@ -9,9 +9,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch",
-    "publish": "npm run build && npm publish",
-    "publish-dryrun": "npm run build && npm publish --dry-run"
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
